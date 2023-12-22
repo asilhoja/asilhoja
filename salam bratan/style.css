@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+   background-color: #EEEFF1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+}
+
+.logo{
+    align-items: center;
+    margin-right: auto;
+}
+
+.korzina{
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: black
+}
+
+.button{
+background-color: black;
+padding: 15px 30px;
+border-radius: 63px;
+color: white;
+text-decoration: none;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 124px;
+}
+
+.text2{
+    padding-bottom: 60px;
+    color: #64646A;
+}
+
+header{
+    margin-bottom: 170px;
+}
+
+.cards{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gap{
+    text-align: center;
+    margin-top: 170px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px;
+}
+
+.pop{
+    font-size: 60px;
+}
