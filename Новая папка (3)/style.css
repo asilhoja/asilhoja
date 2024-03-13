@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ 
+ body{
+    background: linear-gradient(45deg, #48484b80 20%, transparent 21%, transparent 79%, #48484b80 80%) , linear-gradient(315deg, #48484b80 20%, transparent 21%), linear-gradient(45deg, #48484b 20%, transparent 21%), linear-gradient(315deg, #48484b 20%, transparent 21%, transparent 79%, #48484b80 80%);
+    background-size: 2em 2em;
+    background-color: #000000;
+    opacity: 1
+    
+ }
+ 
+ 
+ .header__link{
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .container{
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ 
+ .wraper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+ }
+ 
+ 
+ .section__photo{
+    max-width: 280px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+ 
+ .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+flex-wrap: wrap;
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+ }
+ 
+ .section__foto{
+    max-width: 215px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+ 
+ .section__kartina{
+    max-width: 280px;
+    width: 100%;
+    height: 212px;
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+ 
+ h1{
+    color: rgb(65, 65, 248);
+    text-align: center;
+ margin: 20px;
+ }
+ 
+ 
+ .ps5__photo{
+    max-width: 500px;
+    width: 100%;
+    border: 5px solid rgb(130, 241, 251);
+    border-radius: 20px;
+ }
+ 
+ .ps5__title{
+    color: cornsilk;
+    text-align: center;
+ }
+
+ .ps5__card  {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   justify-content: center;
+
+   @media (max-width: 600px) {
+      flex-direction: column;
+   }
+ }
+ 
+ .ps5__cards{
+    display: flex;
+    justify-content: center;
+   
+   @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+ }  
+ 
+ .ps5__photoo{
+   max-width: 460px;
+   width: 100%;
+    border: 5px solid rgb(130, 241, 251);
+    border-radius: 20px;
+ 
+ }
+ 
+ .ps5{
+    margin-top: 50px;
+ }
+ 
+ 
+ .games__cards{
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+ }
+ .games__cards2{
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+ }
+ 
+ .games__cards3{
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+ }
+ 
+ .games__image{
+   max-width: 220px;
+   width: 100%;
+    height: 200px;
+ }
+ 
+
+ .games__image:hover{
+   border: 2px solid red;
+ }
+
+ .games__img:hover{
+   border: 2px solid red; 
+ }
+
+ .games__img{
+   max-width: 220px;
+    width: 100%;
+    height: 200px;
+ }
+ 
+ 
+ .games__title{
+    color: purple;
+    text-align: center;
+    margin: 30px;
+ }
+ 
+ .games{
+    background-image: url(https://i.pinimg.com/originals/11/a9/4e/11a94e7f7d9e92dbcb687ae5fdb6eafd.jpg);
+   
+ }
+
+ 
+
+ .xbox__wraper{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+ }
+
+
+ .xbox__text{
+    color: ghostwhite;
+ }
+
+ .xbox__photo{
+   max-width: 900px;
+    width: 100%;
+    transition: all 0.3s;
+ }
+
+
+ .xbox{
+    margin-top: 100px;
+ }
+
+ .xbox__photo:hover{
+     border: 4px solid white;
+    }
+    
+    .ninitendo__wraper{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        
+        @media (max-width:600px) {
+         flex-direction: column;
+         align-items: center;
+       }
+    }
+    
+ .nintendo__image{
+   max-width: 900px;
+    width: 100%;
+ }
+
+ .ninitendo__text{
+    color: aliceblue;
+ }
+ 
+  .nintendo{
+    margin-top: 90px;
+  } 
+  
+  
+  .ninitendo__text:hover{
+    color: magenta;
+  }
+
+  .fifa__image{
+   max-width: 1500px;
+   width: 100%;
+   transition: all 0.8s;
+  }
+
+  .fifa{
+   margin-top: 60px;
+  }
+     
+  .fifa__title{
+   color: aliceblue;
+   text-align: center;
+  }
+
+
+  .fifa__photo{
+   max-width: 1500px;
+   width: 100%;
+   margin: 20px 0 20px 0;
+   transition: all 0.8s;
+  }
+
+  .fifa__tatle{
+   color: aliceblue;
+   text-align: center;
+  }
+
+  .fifa__text{
+   color: aliceblue;
+   text-align: center;
+   margin-top: 20px;
+  }
+
+  .email{
+   margin: 70px;
+  }
+
+  .email__title{
+   color: aliceblue;
+  }
+
+  input{
+   background-color: #000000;
+   border: 1px solid rgb(154, 26, 68);
+   padding: 5px;
+   transition: all 0.5s;
+  }
+
+  .email__link{
+   background-color: rgb(186, 33, 84);
+   color: white;
+   padding: 5px;
+   transition: all 0.5s;
+   margin-right: 40px;
+  }
+
+  .email__link:hover{
+   border: 2px solid white;
+  }
+
+  input:hover{
+   border: 2px solid white;
+  }
+
+  .email__text{
+   color: aliceblue;
+  }
+
+  .email__wrapper{
+   display: flex;
+gap: 40px;
+
+@media (max-width: 600px) {
+   flex-direction: column;
+}
+  }
+
+  .email__wrap{
+   display: flex;
+
+   @media (max-width: 600px) {
+      flex-direction: column;
+   }
+  }
+
+
+  .fifa__image:hover{
+   border: 2px solid white;
+  }
+
+  .fifa__photo:hover{
+   border: 2px solid white;
+  }
+
+  .section__kartina:hover{
+   border: 2px solid rgb(210, 17, 17); 
+  }
+
+  .section__foto:hover{
+   border: 2px solid rgb(210, 17, 17);
+  }
+
+  .section__photo:hover{
+   border: 2px solid rgb(210, 17, 17);
+  }
+
+
+  .header__link:hover{
+   color: rgb(208, 255, 0);
+  }
+
+     
